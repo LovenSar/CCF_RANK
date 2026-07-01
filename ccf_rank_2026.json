@@ -25,6 +25,17 @@
       "type": "website_zh_high_quality",
       "url": "https://www.ccf.org.cn/ccftjgjxskwml/",
       "note": "CCF 计算领域高质量科技期刊分级目录（中文期刊 T1/T2/T3，2025 年发布）"
+    },
+    {
+      "type": "pdf_zh_journal_catalog_2019",
+      "title": "中国计算机学会推荐中文科技期刊目录（2019）",
+      "path": "中国计算机学会推荐中文科技期刊目录-2019-CCF中文ABC.pdf",
+      "note": "CCF 中文科技期刊 A/B/C 目录"
+    },
+    {
+      "type": "website_zh_journal_catalog_2019",
+      "url": "https://www.ccf.org.cn/c/2019-07-31/667609.shtml",
+      "note": "CCF 推荐中文科技期刊目录发布页（2019-07-31）"
     }
   ],
   "category": [
@@ -8935,638 +8946,1112 @@
     }
   ],
   "chinese_journal_catalog": {
-    "title": "计算领域高质量科技期刊分级目录（2025）",
-    "title_en": "High-Quality Science and Technology Journal Catalog for the Computing Field (2025)",
-    "organization": "中国计算机学会（CCF）",
-    "release_date": "2025-04-16",
-    "source_url": "https://www.ccf.org.cn/ccftjgjxskwml/",
-    "note": "与\"CCF 推荐国际学术刊物（ABC 类）\"为两个相互独立的列表，不具有等效关系。本目录将在未来两到三年更新一次。",
-    "tiers": {
-      "T1": {
-        "description": "最顶级期刊",
-        "count": 19
-      },
-      "T2": {
-        "description": "非常优秀期刊",
-        "count": 22
-      },
-      "T3": {
-        "description": "优秀期刊",
-        "count": 27
-      }
-    },
-    "list": [
-      {
-        "num": 1,
-        "tier": "T1",
-        "name_cn": "大数据挖掘与分析（英文）",
-        "name_en": "Big Data Mining and Analytics",
-        "cn_number": "10-1514/G2",
-        "language": "英文",
-        "sponsor": "清华大学"
-      },
-      {
-        "num": 2,
-        "tier": "T1",
-        "name_cn": "电子学报（英文）",
-        "name_en": "Chinese Journal of Electronics",
-        "cn_number": "10-1284/TN",
-        "language": "英文",
-        "sponsor": "中国电子学会、电子工业出版社"
-      },
-      {
-        "num": 3,
-        "tier": "T1",
-        "name_cn": "网络空间安全科学与技术（英文）",
-        "name_en": "Cybersecurity",
-        "cn_number": "10-1537/TN",
-        "language": "英文",
-        "sponsor": "中国科学院信息工程研究所、中国科技出版传媒股份有限公司"
-      },
-      {
-        "num": 4,
-        "tier": "T1",
-        "name_cn": "计算机科学前沿（英文版）",
-        "name_en": "Frontiers of Computer Science",
-        "cn_number": "10-1014/TP",
-        "language": "英文",
-        "sponsor": "高等教育出版社有限公司、北京航空航天大学"
-      },
-      {
-        "num": 5,
-        "tier": "T1",
-        "name_cn": "信息与电子工程前沿（英文）",
-        "name_en": "Frontiers of Information Technology & Electronic Engineering",
-        "cn_number": "33-1389/TP",
-        "language": "英文",
-        "sponsor": "中国工程院、浙江大学"
-      },
-      {
-        "num": 6,
-        "tier": "T1",
-        "name_cn": "自动化学报（英文版）",
-        "name_en": "IEEE/CAA Journal of Automatica Sinica",
-        "cn_number": "10-1193/TP",
-        "language": "英文",
-        "sponsor": "中国自动化学会、中国科学院自动化研究所、中国科技出版传媒股份有限公司"
-      },
-      {
-        "num": 7,
-        "tier": "T1",
-        "name_cn": "计算机科学技术学报（英文）",
-        "name_en": "Journal of Computer Science and Technology",
-        "cn_number": "11-2296/TP",
-        "language": "英文",
-        "sponsor": "中科院计算所、中国计算机学会"
-      },
-      {
-        "num": 8,
-        "tier": "T1",
-        "name_cn": "中国科学：信息科学（英文版）",
-        "name_en": "SCIENTIA SINICA Informationis",
-        "cn_number": "11-5847/TP",
-        "language": "英文",
-        "sponsor": "中国科学院、国家自然科学基金委员会"
-      },
-      {
-        "num": 9,
-        "tier": "T1",
-        "name_cn": "电子与信息学报",
-        "name_en": "",
-        "cn_number": "11-4494/TN",
-        "language": "中文",
-        "sponsor": "中国科学院空天信息创新研究院、国家自然科学基金委员会信息科学部"
-      },
-      {
-        "num": 10,
-        "tier": "T1",
-        "name_cn": "电子学报",
-        "name_en": "",
-        "cn_number": "11-2087/TN",
-        "language": "中文",
-        "sponsor": "中国电子学会"
-      },
-      {
-        "num": 11,
-        "tier": "T1",
-        "name_cn": "科学通报",
-        "name_en": "",
-        "cn_number": "11-1784/N",
-        "language": "中文",
-        "sponsor": "中国科学院、国家自然科学基金委员会"
-      },
-      {
-        "num": 12,
-        "tier": "T1",
-        "name_cn": "计算机辅助设计与图形学学报",
-        "name_en": "",
-        "cn_number": "11-2925/TP",
-        "language": "中文",
-        "sponsor": "中国计算机学会、北京中科期刊出版有限公司"
-      },
-      {
-        "num": 13,
-        "tier": "T1",
-        "name_cn": "计算机学报",
-        "name_en": "",
-        "cn_number": "11-1826/TP",
-        "language": "中文",
-        "sponsor": "中国科学院计算技术研究所、中国计算机学会"
-      },
-      {
-        "num": 14,
-        "tier": "T1",
-        "name_cn": "计算机研究与发展",
-        "name_en": "",
-        "cn_number": "11-1777/TP",
-        "language": "中文",
-        "sponsor": "中国科学院计算技术研究所、中国计算机学会"
-      },
-      {
-        "num": 15,
-        "tier": "T1",
-        "name_cn": "软件学报",
-        "name_en": "",
-        "cn_number": "11-2560/TP",
-        "language": "中文",
-        "sponsor": "中国科学院软件研究所、中国计算机学会"
-      },
-      {
-        "num": 16,
-        "tier": "T1",
-        "name_cn": "通信学报",
-        "name_en": "",
-        "cn_number": "11-2102/TN",
-        "language": "中文",
-        "sponsor": "中国通信学会"
-      },
-      {
-        "num": 17,
-        "tier": "T1",
-        "name_cn": "自动化学报",
-        "name_en": "",
-        "cn_number": "11-2109/TP",
-        "language": "中文",
-        "sponsor": "中国科学院自动化研究所、中国自动化学会"
-      },
-      {
-        "num": 18,
-        "tier": "T1",
-        "name_cn": "中国科学：信息科学",
-        "name_en": "",
-        "cn_number": "11-5846/TP",
-        "language": "中文",
-        "sponsor": "中国科学院、国家自然科学基金委员会"
-      },
-      {
-        "num": 19,
-        "tier": "T1",
-        "name_cn": "中文信息学报",
-        "name_en": "",
-        "cn_number": "11-2325/N",
-        "language": "中文",
-        "sponsor": "中国中文信息学会、中国科学院软件研究所"
-      },
-      {
-        "num": 1,
-        "tier": "T2",
-        "name_cn": "中国通信（英文）",
-        "name_en": "China Communications",
-        "cn_number": "11-5439/TN",
-        "language": "英文",
-        "sponsor": "中国通信学会"
-      },
-      {
-        "num": 2,
-        "tier": "T2",
-        "name_cn": "计算数学（英文）",
-        "name_en": "Journal of Computational Mathematics",
-        "cn_number": "11-2126/O1",
-        "language": "英文",
-        "sponsor": "中科院数学与系统科学研究院"
-      },
-      {
-        "num": 3,
-        "tier": "T2",
-        "name_cn": "虚拟现实与智能硬件（英文）",
-        "name_en": "Virtual Reality & Intelligent Hardware",
-        "cn_number": "10-1561/TP",
-        "language": "英文",
-        "sponsor": "中国科技出版传媒股份有限公司、北京航空航天大学"
-      },
-      {
-        "num": 4,
-        "tier": "T2",
-        "name_cn": "中兴通讯技术（英文）",
-        "name_en": "ZTE Communications",
-        "cn_number": "34-1294/TN",
-        "language": "英文",
-        "sponsor": "时代出版传媒股份有限公司、深圳航天广宇工业有限公司"
-      },
-      {
-        "num": 5,
-        "tier": "T2",
-        "name_cn": "大数据",
-        "name_en": "",
-        "cn_number": "10-1321/G2",
-        "language": "中文",
-        "sponsor": "人民邮电出版社有限公司"
-      },
-      {
-        "num": 6,
-        "tier": "T2",
-        "name_cn": "计算机教育",
-        "name_en": "",
-        "cn_number": "11-5006/TP",
-        "language": "中文",
-        "sponsor": "清华大学"
-      },
-      {
-        "num": 7,
-        "tier": "T2",
-        "name_cn": "计算机科学",
-        "name_en": "",
-        "cn_number": "50-1075/TP",
-        "language": "中文",
-        "sponsor": "重庆西南信息有限公司"
-      },
-      {
-        "num": 8,
-        "tier": "T2",
-        "name_cn": "计算机科学与探索",
-        "name_en": "",
-        "cn_number": "11-5602/TP",
-        "language": "中文",
-        "sponsor": "华北计算技术研究所"
-      },
-      {
-        "num": 9,
-        "tier": "T2",
-        "name_cn": "计算机工程",
-        "name_en": "",
-        "cn_number": "31-1289/TP",
-        "language": "中文",
-        "sponsor": "华东计算技术研究所、上海计算机学会"
-      },
-      {
-        "num": 10,
-        "tier": "T2",
-        "name_cn": "计算机工程与科学",
-        "name_en": "",
-        "cn_number": "43-1258/TP",
-        "language": "中文",
-        "sponsor": "国防科技大学计算机学院"
-      },
-      {
-        "num": 11,
-        "tier": "T2",
-        "name_cn": "计算机工程与应用",
-        "name_en": "",
-        "cn_number": "11-2127/TP",
-        "language": "中文",
-        "sponsor": "华北计算技术研究所"
-      },
-      {
-        "num": 12,
-        "tier": "T2",
-        "name_cn": "计算机系统应用",
-        "name_en": "",
-        "cn_number": "11-2854/TP",
-        "language": "中文",
-        "sponsor": "中国科学院软件研究所"
-      },
-      {
-        "num": 13,
-        "tier": "T2",
-        "name_cn": "计算机应用",
-        "name_en": "",
-        "cn_number": "51-1307/TP",
-        "language": "中文",
-        "sponsor": "四川省计算机学会、中国科学院成都分院"
-      },
-      {
-        "num": 14,
-        "tier": "T2",
-        "name_cn": "密码学报",
-        "name_en": "",
-        "cn_number": "10-1195/TN",
-        "language": "中文",
-        "sponsor": "中国密码学会、北京信息科学技术研究院、科学普及出版社"
-      },
-      {
-        "num": 15,
-        "tier": "T2",
-        "name_cn": "模式识别与人工智能",
-        "name_en": "",
-        "cn_number": "34-1089/TP",
-        "language": "中文",
-        "sponsor": "中国自动化学会、国家智能计算机研究开发中心、中国科学院合肥智能机械研究所"
-      },
-      {
-        "num": 16,
-        "tier": "T2",
-        "name_cn": "物联网学报",
-        "name_en": "",
-        "cn_number": "10-1491/TP",
-        "language": "中文",
-        "sponsor": "人民邮电出版社有限公司"
-      },
-      {
-        "num": 17,
-        "tier": "T2",
-        "name_cn": "网络与信息安全学报",
-        "name_en": "",
-        "cn_number": "10-1366/TP",
-        "language": "中文",
-        "sponsor": "人民邮电出版社有限公司"
-      },
-      {
-        "num": 18,
-        "tier": "T2",
-        "name_cn": "小型微型计算机系统",
-        "name_en": "",
-        "cn_number": "21-1106/TP",
-        "language": "中文",
-        "sponsor": "中国科学院沈阳计算技术研究所"
-      },
-      {
-        "num": 19,
-        "tier": "T2",
-        "name_cn": "系统仿真学报",
-        "name_en": "",
-        "cn_number": "11-3092/V",
-        "language": "中文",
-        "sponsor": "北京仿真中心、中国仿真学会"
-      },
-      {
-        "num": 20,
-        "tier": "T2",
-        "name_cn": "信息安全学报",
-        "name_en": "",
-        "cn_number": "10-1380/TN",
-        "language": "中文",
-        "sponsor": "中国科学院信息工程研究所、中国科技出版传媒股份有限公司"
-      },
-      {
-        "num": 21,
-        "tier": "T2",
-        "name_cn": "智能系统学报",
-        "name_en": "",
-        "cn_number": "23-1538/TP",
-        "language": "中文",
-        "sponsor": "哈尔滨工程大学、中国人工智能学会"
-      },
-      {
-        "num": 22,
-        "tier": "T2",
-        "name_cn": "中国图象图形学报",
-        "name_en": "",
-        "cn_number": "11-3758/TB",
-        "language": "中文",
-        "sponsor": "中国科学院空天信息创新研究院、中国图象图形学学会、北京应用物理与计算数学研究所"
-      },
-      {
-        "num": 1,
-        "tier": "T3",
-        "name_cn": "光电子快报（英文）",
-        "name_en": "Optoelectronics Letters",
-        "cn_number": "12-1370/TN",
-        "language": "英文",
-        "sponsor": "天津理工大学"
-      },
-      {
-        "num": 2,
-        "tier": "T3",
-        "name_cn": "定量生物学（英文）",
-        "name_en": "Quantitative Biology",
-        "cn_number": "10-1082/Q",
-        "language": "英文",
-        "sponsor": "高等教育出版社有限公司、清华大学"
-      },
-      {
-        "num": 3,
-        "tier": "T3",
-        "name_cn": "工医艺的可视计算（英文）",
-        "name_en": "Visual Computing for Industry, Biomedicine, and Art",
-        "cn_number": "10-1521/TP",
-        "language": "英文",
-        "sponsor": "中国图学学会"
-      },
-      {
-        "num": 4,
-        "tier": "T3",
-        "name_cn": "保密科学技术",
-        "name_en": "",
-        "cn_number": "11-5948/TP",
-        "language": "中文",
-        "sponsor": "国家保密科技测评中心"
-      },
-      {
-        "num": 5,
-        "tier": "T3",
-        "name_cn": "高性能计算机技术",
-        "name_en": "",
-        "cn_number": "32-1679/TP",
-        "language": "中文",
-        "sponsor": "总参第五十六研究所"
-      },
-      {
-        "num": 6,
-        "tier": "T3",
-        "name_cn": "航空计算技术",
-        "name_en": "",
-        "cn_number": "61-1276/TP",
-        "language": "中文",
-        "sponsor": "中国航空工业集团公司西安航空计算技术研究所"
-      },
-      {
-        "num": 7,
-        "tier": "T3",
-        "name_cn": "集成电路与嵌入式系统",
-        "name_en": "",
-        "cn_number": "10-1910/V",
-        "language": "中文",
-        "sponsor": "北京航空航天大学"
-      },
-      {
-        "num": 8,
-        "tier": "T3",
-        "name_cn": "计算机仿真",
-        "name_en": "",
-        "cn_number": "11-3724/TP",
-        "language": "中文",
-        "sponsor": "北京控制与电子技术研究所"
-      },
-      {
-        "num": 9,
-        "tier": "T3",
-        "name_cn": "计算机工程与设计",
-        "name_en": "",
-        "cn_number": "11-1775/TP",
-        "language": "中文",
-        "sponsor": "中国航天科工集团第二研究院七〇六所"
-      },
-      {
-        "num": 10,
-        "tier": "T3",
-        "name_cn": "计算机集成制造系统",
-        "name_en": "",
-        "cn_number": "11-5946/TP",
-        "language": "中文",
-        "sponsor": "中国兵器工业集团第二一〇研究所"
-      },
-      {
-        "num": 11,
-        "tier": "T3",
-        "name_cn": "计算机技术与发展",
-        "name_en": "",
-        "cn_number": "61-1450/TP",
-        "language": "中文",
-        "sponsor": "陕西省计算机学会"
-      },
-      {
-        "num": 12,
-        "tier": "T3",
-        "name_cn": "机器人",
-        "name_en": "",
-        "cn_number": "21-1137/TP",
-        "language": "中文",
-        "sponsor": "中国科学院沈阳自动化研究所、中国自动化学会"
-      },
-      {
-        "num": 13,
-        "tier": "T3",
-        "name_cn": "计算机应用研究",
-        "name_en": "",
-        "cn_number": "51-1196/TP",
-        "language": "中文",
-        "sponsor": "四川省计算机研究院"
-      },
-      {
-        "num": 14,
-        "tier": "T3",
-        "name_cn": "密码与信息安全学报",
-        "name_en": "",
-        "cn_number": "41-1415/TP",
-        "language": "中文",
-        "sponsor": "信息工程大学科研部"
-      },
-      {
-        "num": 15,
-        "tier": "T3",
-        "name_cn": "软件导刊",
-        "name_en": "",
-        "cn_number": "42-1671/TP",
-        "language": "中文",
-        "sponsor": "湖北省科技信息研究院"
-      },
-      {
-        "num": 16,
-        "tier": "T3",
-        "name_cn": "软件和集成电路",
-        "name_en": "",
-        "cn_number": "10-1339/TN",
-        "language": "中文",
-        "sponsor": "中国电子信息产业发展研究院、赛迪工业和信息化研究院（集团）有限公司"
-      },
-      {
-        "num": 17,
-        "tier": "T3",
-        "name_cn": "数据与计算发展前沿",
-        "name_en": "",
-        "cn_number": "10-1649/TP",
-        "language": "中文",
-        "sponsor": "中国科学院计算机网络信息中心、中国科技出版传媒股份有限公司"
-      },
-      {
-        "num": 18,
-        "tier": "T3",
-        "name_cn": "生物信息学",
-        "name_en": "",
-        "cn_number": "23-1513/Q",
-        "language": "中文",
-        "sponsor": "哈尔滨工业大学"
-      },
-      {
-        "num": 19,
-        "tier": "T3",
-        "name_cn": "数值计算与计算机应用",
-        "name_en": "",
-        "cn_number": "11-2124/TP",
-        "language": "中文",
-        "sponsor": "中科院数学与系统科学研究院"
-      },
-      {
-        "num": 20,
-        "tier": "T3",
-        "name_cn": "图学学报",
-        "name_en": "",
-        "cn_number": "10-1034/T",
-        "language": "中文",
-        "sponsor": "中国图学学会"
-      },
-      {
-        "num": 21,
-        "tier": "T3",
-        "name_cn": "微电子学与计算机",
-        "name_en": "",
-        "cn_number": "61-1123/TN",
-        "language": "中文",
-        "sponsor": "西安微电子技术研究所"
-      },
-      {
-        "num": 22,
-        "tier": "T3",
-        "name_cn": "网络空间安全",
-        "name_en": "",
-        "cn_number": "10-1421/TP",
-        "language": "中文",
-        "sponsor": "中国电子信息产业发展研究院、赛迪工业和信息化研究院（集团）有限公司"
-      },
-      {
-        "num": 23,
-        "tier": "T3",
-        "name_cn": "信号处理",
-        "name_en": "",
-        "cn_number": "11-2406/TN",
-        "language": "中文",
-        "sponsor": "中国电子学会、中电新一代（北京）信息技术研究院"
-      },
-      {
-        "num": 24,
-        "tier": "T3",
-        "name_cn": "信息安全研究",
-        "name_en": "",
-        "cn_number": "10-1345/TP",
-        "language": "中文",
-        "sponsor": "国家信息中心"
-      },
-      {
-        "num": 25,
-        "tier": "T3",
-        "name_cn": "信息网络安全",
-        "name_en": "",
-        "cn_number": "31-1859/TN",
-        "language": "中文",
-        "sponsor": "公安部第三研究所、中国计算机学会"
-      },
-      {
-        "num": 26,
-        "tier": "T3",
-        "name_cn": "应用科学学报",
-        "name_en": "",
-        "cn_number": "31-1404/N",
-        "language": "中文",
-        "sponsor": "上海大学、中国科学院上海技术物理研究所"
-      },
-      {
-        "num": 27,
-        "tier": "T3",
-        "name_cn": "中兴通讯技术",
-        "name_en": "",
-        "cn_number": "34-1228/TN",
-        "language": "中文",
-        "sponsor": "时代出版传媒股份有限公司、深圳航天广宇工业有限公司"
+    "current_edition_id": "ccf_cn_2025_t123",
+    "editions": [
+      {
+        "id": "ccf_cn_2019_abc",
+        "year": 2019,
+        "title": "中国计算机学会推荐中文科技期刊目录（2019）",
+        "title_en": "CCF Recommended Chinese Science and Technology Journals Catalog (2019)",
+        "catalog_type": "CCF推荐中文科技期刊目录",
+        "tier_system": "ABC",
+        "release_date": "2019-07-31",
+        "effective_from": "2019-07-31",
+        "effective_to": "2025-04-15",
+        "effective_to_note": "按 2025-04-16 新版《计算领域高质量科技期刊分级目录》发布时间推定",
+        "tiers": {
+          "A": {
+            "description": "最顶级期刊",
+            "count": 7
+          },
+          "B": {
+            "description": "非常优秀期刊",
+            "count": 11
+          },
+          "C": {
+            "description": "优秀期刊",
+            "count": 19
+          }
+        },
+        "list": [
+          {
+            "num": 1,
+            "tier": "A",
+            "name_cn": "软件学报",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "中国科学院软件研究所、中国计算机学会",
+            "url": "http://www.jos.org.cn"
+          },
+          {
+            "num": 2,
+            "tier": "A",
+            "name_cn": "计算机学报",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "中国计算机学会、中国科学院计算技术研究所",
+            "url": "http://cjc.ict.ac.cn"
+          },
+          {
+            "num": 3,
+            "tier": "A",
+            "name_cn": "中国科学：信息科学",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "中国科学院、国家自然科学基金委员会",
+            "url": "http://infocn.scichina.com"
+          },
+          {
+            "num": 4,
+            "tier": "A",
+            "name_cn": "计算机研究与发展",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "中国科学院计算技术研究所、中国计算机学会",
+            "url": "http://crad.ict.ac.cn"
+          },
+          {
+            "num": 5,
+            "tier": "A",
+            "name_cn": "计算机辅助设计与图形学学报",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "中国计算机学会、中国科学院计算技术研究所",
+            "url": "http://www.jcad.cn"
+          },
+          {
+            "num": 6,
+            "tier": "A",
+            "name_cn": "电子学报",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "中国电子学会",
+            "url": "http://www.ejournal.org.cn"
+          },
+          {
+            "num": 7,
+            "tier": "A",
+            "name_cn": "自动化学报",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "中国自动化学会、中国科学院自动化研究所",
+            "url": "http://www.aas.net.cn"
+          },
+          {
+            "num": 1,
+            "tier": "B",
+            "name_cn": "通信学报",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "中国通信学会",
+            "url": "http://www.infocomm-journal.com/txxb/"
+          },
+          {
+            "num": 2,
+            "tier": "B",
+            "name_cn": "科学通报",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "中国科学院、国家自然科学基金委员会",
+            "url": "http://engine.scichina.com/publisher/scp/journal/CSB/"
+          },
+          {
+            "num": 3,
+            "tier": "B",
+            "name_cn": "中文信息学报",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "中国中文信息学会、中国科学院软件研究所",
+            "url": "http://jcip.cipsc.org.cn"
+          },
+          {
+            "num": 4,
+            "tier": "B",
+            "name_cn": "模式识别与人工智能",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "中国自动化学会、国家智能计算机研究开发中心、中国科学院合肥智能机械研究所",
+            "url": "http://manu46.magtech.com.cn/Jweb_prai/"
+          },
+          {
+            "num": 5,
+            "tier": "B",
+            "name_cn": "信息安全学报",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "中国科学院信息工程研究所、科学出版社",
+            "url": "http://jcs.iie.ac.cn"
+          },
+          {
+            "num": 6,
+            "tier": "B",
+            "name_cn": "中国图像图形学报",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "中国科学院遥感与数字地球研究所、中国图象图形学学会、北京应用物理与计算数字研究所",
+            "url": "http://www.cjig.cn"
+          },
+          {
+            "num": 7,
+            "tier": "B",
+            "name_cn": "系统仿真学报",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "中国仿真学会、北京仿真中心",
+            "url": "http://www.china-simulation.com/"
+          },
+          {
+            "num": 8,
+            "tier": "B",
+            "name_cn": "计算机科学",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "重庆西南信息有限公司",
+            "url": "http://www.jsjkx.com"
+          },
+          {
+            "num": 9,
+            "tier": "B",
+            "name_cn": "小型微型计算机系统",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "中国科学院沈阳计算技术研究所",
+            "url": "http://xwxt.sict.ac.cn"
+          },
+          {
+            "num": 10,
+            "tier": "B",
+            "name_cn": "计算机科学与探索",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "华北计算技术研究所",
+            "url": "http://fcst.ceaj.org"
+          },
+          {
+            "num": 11,
+            "tier": "B",
+            "name_cn": "密码学报",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "中国密码学会",
+            "url": "http://www.jcr.cacrnet.org.cn"
+          },
+          {
+            "num": 1,
+            "tier": "C",
+            "name_cn": "计算机工程与应用",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "华北计算技术研究所",
+            "url": "http://cea.ceaj.org"
+          },
+          {
+            "num": 2,
+            "tier": "C",
+            "name_cn": "计算工程与科学",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "国防科技大学计算机学院",
+            "url": "http://joces.nudt.edu.cn"
+          },
+          {
+            "num": 3,
+            "tier": "C",
+            "name_cn": "计算机应用",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "中国科学院成都分院、四川省计算机学会",
+            "url": "http://www.joca.cn/"
+          },
+          {
+            "num": 4,
+            "tier": "C",
+            "name_cn": "计算机仿真",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "北京控制与电子技术研究所",
+            "url": "http://compusimu.gnway.cc/"
+          },
+          {
+            "num": 5,
+            "tier": "C",
+            "name_cn": "计算机系统应用",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "中国科学院软件研究所",
+            "url": "http://www.c-s-a.org.cn"
+          },
+          {
+            "num": 6,
+            "tier": "C",
+            "name_cn": "计算机应用研究",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "四川省计算机研究院",
+            "url": "http://www.arocmag.com/"
+          },
+          {
+            "num": 7,
+            "tier": "C",
+            "name_cn": "计算机应用与软件",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "上海市计算技术研究所、上海计算机软件技术开发中心",
+            "url": "http://www.shcas.net/"
+          },
+          {
+            "num": 8,
+            "tier": "C",
+            "name_cn": "图学学报",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "中国图学学会",
+            "url": "http://www.txxb.com.cn"
+          },
+          {
+            "num": 9,
+            "tier": "C",
+            "name_cn": "计算机工程",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "华东计算技术研究所、上海市计算机学会",
+            "url": "http://www.ecice06.com"
+          },
+          {
+            "num": 10,
+            "tier": "C",
+            "name_cn": "计算机工程与设计",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "中国航天科工集团706所",
+            "url": "http://www.china-ced.com/"
+          },
+          {
+            "num": 11,
+            "tier": "C",
+            "name_cn": "计算机集成制造系统",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "中国兵器工业集团公司第210研究所",
+            "url": "http://www.cims-journal.cn"
+          },
+          {
+            "num": 12,
+            "tier": "C",
+            "name_cn": "计算机技术与发展",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "陕西省计算机学会",
+            "url": "http://www.xactad.org/"
+          },
+          {
+            "num": 13,
+            "tier": "C",
+            "name_cn": "数据分析与知识发现",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "中国科学院文献情报中心",
+            "url": "http://www.infotech.ac.cn"
+          },
+          {
+            "num": 14,
+            "tier": "C",
+            "name_cn": "智能系统学报",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "中国人工智能学会、哈尔滨工程大学",
+            "url": "http://tis.hrbeu.edu.cn/"
+          },
+          {
+            "num": 15,
+            "tier": "C",
+            "name_cn": "大数据",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "人民邮电出版社有限公司",
+            "url": "http://www.j-bigdataresearch.com.cn/"
+          },
+          {
+            "num": 16,
+            "tier": "C",
+            "name_cn": "电子与信息学报",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "中国科学院电子学研究所、国家自然科学基金委员会信息科学部",
+            "url": "http://jeit.ie.ac.cn/"
+          },
+          {
+            "num": 17,
+            "tier": "C",
+            "name_cn": "计算机与数字工程",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "中国船舶重工集团公司第709研究所",
+            "url": "http://jsj.709journal.com"
+          },
+          {
+            "num": 18,
+            "tier": "C",
+            "name_cn": "网络与信息安全学报",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "人民邮电出版社",
+            "url": "http://www.cjnis.com.cn/"
+          },
+          {
+            "num": 19,
+            "tier": "C",
+            "name_cn": "计算机教育",
+            "name_en": "",
+            "cn_number": "",
+            "language": "中文",
+            "sponsor": "清华大学",
+            "url": "http://www.jsjjy.com/"
+          }
+        ]
+      },
+      {
+        "id": "ccf_cn_2025_t123",
+        "year": 2025,
+        "title": "计算领域高质量科技期刊分级目录（2025）",
+        "title_en": "High-Quality Science and Technology Journal Catalog for the Computing Field (2025)",
+        "catalog_type": "计算领域高质量科技期刊分级目录",
+        "tier_system": "T123",
+        "release_date": "2025-04-16",
+        "effective_from": "2025-04-16",
+        "effective_to": null,
+        "tiers": {
+          "T1": {
+            "description": "最顶级期刊",
+            "count": 19
+          },
+          "T2": {
+            "description": "非常优秀期刊",
+            "count": 22
+          },
+          "T3": {
+            "description": "优秀期刊",
+            "count": 27
+          }
+        },
+        "list": [
+          {
+            "num": 1,
+            "tier": "T1",
+            "name_cn": "大数据挖掘与分析（英文）",
+            "name_en": "Big Data Mining and Analytics",
+            "cn_number": "10-1514/G2",
+            "language": "英文",
+            "sponsor": "清华大学",
+            "url": ""
+          },
+          {
+            "num": 2,
+            "tier": "T1",
+            "name_cn": "电子学报（英文）",
+            "name_en": "Chinese Journal of Electronics",
+            "cn_number": "10-1284/TN",
+            "language": "英文",
+            "sponsor": "中国电子学会、电子工业出版社",
+            "url": ""
+          },
+          {
+            "num": 3,
+            "tier": "T1",
+            "name_cn": "网络空间安全科学与技术（英文）",
+            "name_en": "Cybersecurity",
+            "cn_number": "10-1537/TN",
+            "language": "英文",
+            "sponsor": "中国科学院信息工程研究所、中国科技出版传媒股份有限公司",
+            "url": ""
+          },
+          {
+            "num": 4,
+            "tier": "T1",
+            "name_cn": "计算机科学前沿（英文版）",
+            "name_en": "Frontiers of Computer Science",
+            "cn_number": "10-1014/TP",
+            "language": "英文",
+            "sponsor": "高等教育出版社有限公司、北京航空航天大学",
+            "url": ""
+          },
+          {
+            "num": 5,
+            "tier": "T1",
+            "name_cn": "信息与电子工程前沿（英文）",
+            "name_en": "Frontiers of Information Technology & Electronic Engineering",
+            "cn_number": "33-1389/TP",
+            "language": "英文",
+            "sponsor": "中国工程院、浙江大学",
+            "url": ""
+          },
+          {
+            "num": 6,
+            "tier": "T1",
+            "name_cn": "自动化学报（英文版）",
+            "name_en": "IEEE/CAA Journal of Automatica Sinica",
+            "cn_number": "10-1193/TP",
+            "language": "英文",
+            "sponsor": "中国自动化学会、中国科学院自动化研究所、中国科技出版传媒股份有限公司",
+            "url": ""
+          },
+          {
+            "num": 7,
+            "tier": "T1",
+            "name_cn": "计算机科学技术学报（英文）",
+            "name_en": "Journal of Computer Science and Technology",
+            "cn_number": "11-2296/TP",
+            "language": "英文",
+            "sponsor": "中科院计算所、中国计算机学会",
+            "url": ""
+          },
+          {
+            "num": 8,
+            "tier": "T1",
+            "name_cn": "中国科学：信息科学（英文版）",
+            "name_en": "SCIENTIA SINICA Informationis",
+            "cn_number": "11-5847/TP",
+            "language": "英文",
+            "sponsor": "中国科学院、国家自然科学基金委员会",
+            "url": ""
+          },
+          {
+            "num": 9,
+            "tier": "T1",
+            "name_cn": "电子与信息学报",
+            "name_en": "",
+            "cn_number": "11-4494/TN",
+            "language": "中文",
+            "sponsor": "中国科学院空天信息创新研究院、国家自然科学基金委员会信息科学部",
+            "url": ""
+          },
+          {
+            "num": 10,
+            "tier": "T1",
+            "name_cn": "电子学报",
+            "name_en": "",
+            "cn_number": "11-2087/TN",
+            "language": "中文",
+            "sponsor": "中国电子学会",
+            "url": ""
+          },
+          {
+            "num": 11,
+            "tier": "T1",
+            "name_cn": "科学通报",
+            "name_en": "",
+            "cn_number": "11-1784/N",
+            "language": "中文",
+            "sponsor": "中国科学院、国家自然科学基金委员会",
+            "url": ""
+          },
+          {
+            "num": 12,
+            "tier": "T1",
+            "name_cn": "计算机辅助设计与图形学学报",
+            "name_en": "",
+            "cn_number": "11-2925/TP",
+            "language": "中文",
+            "sponsor": "中国计算机学会、北京中科期刊出版有限公司",
+            "url": ""
+          },
+          {
+            "num": 13,
+            "tier": "T1",
+            "name_cn": "计算机学报",
+            "name_en": "",
+            "cn_number": "11-1826/TP",
+            "language": "中文",
+            "sponsor": "中国科学院计算技术研究所、中国计算机学会",
+            "url": ""
+          },
+          {
+            "num": 14,
+            "tier": "T1",
+            "name_cn": "计算机研究与发展",
+            "name_en": "",
+            "cn_number": "11-1777/TP",
+            "language": "中文",
+            "sponsor": "中国科学院计算技术研究所、中国计算机学会",
+            "url": ""
+          },
+          {
+            "num": 15,
+            "tier": "T1",
+            "name_cn": "软件学报",
+            "name_en": "",
+            "cn_number": "11-2560/TP",
+            "language": "中文",
+            "sponsor": "中国科学院软件研究所、中国计算机学会",
+            "url": ""
+          },
+          {
+            "num": 16,
+            "tier": "T1",
+            "name_cn": "通信学报",
+            "name_en": "",
+            "cn_number": "11-2102/TN",
+            "language": "中文",
+            "sponsor": "中国通信学会",
+            "url": ""
+          },
+          {
+            "num": 17,
+            "tier": "T1",
+            "name_cn": "自动化学报",
+            "name_en": "",
+            "cn_number": "11-2109/TP",
+            "language": "中文",
+            "sponsor": "中国科学院自动化研究所、中国自动化学会",
+            "url": ""
+          },
+          {
+            "num": 18,
+            "tier": "T1",
+            "name_cn": "中国科学：信息科学",
+            "name_en": "",
+            "cn_number": "11-5846/TP",
+            "language": "中文",
+            "sponsor": "中国科学院、国家自然科学基金委员会",
+            "url": ""
+          },
+          {
+            "num": 19,
+            "tier": "T1",
+            "name_cn": "中文信息学报",
+            "name_en": "",
+            "cn_number": "11-2325/N",
+            "language": "中文",
+            "sponsor": "中国中文信息学会、中国科学院软件研究所",
+            "url": ""
+          },
+          {
+            "num": 1,
+            "tier": "T2",
+            "name_cn": "中国通信（英文）",
+            "name_en": "China Communications",
+            "cn_number": "11-5439/TN",
+            "language": "英文",
+            "sponsor": "中国通信学会",
+            "url": ""
+          },
+          {
+            "num": 2,
+            "tier": "T2",
+            "name_cn": "计算数学（英文）",
+            "name_en": "Journal of Computational Mathematics",
+            "cn_number": "11-2126/O1",
+            "language": "英文",
+            "sponsor": "中科院数学与系统科学研究院",
+            "url": ""
+          },
+          {
+            "num": 3,
+            "tier": "T2",
+            "name_cn": "虚拟现实与智能硬件（英文）",
+            "name_en": "Virtual Reality & Intelligent Hardware",
+            "cn_number": "10-1561/TP",
+            "language": "英文",
+            "sponsor": "中国科技出版传媒股份有限公司、北京航空航天大学",
+            "url": ""
+          },
+          {
+            "num": 4,
+            "tier": "T2",
+            "name_cn": "中兴通讯技术（英文）",
+            "name_en": "ZTE Communications",
+            "cn_number": "34-1294/TN",
+            "language": "英文",
+            "sponsor": "时代出版传媒股份有限公司、深圳航天广宇工业有限公司",
+            "url": ""
+          },
+          {
+            "num": 5,
+            "tier": "T2",
+            "name_cn": "大数据",
+            "name_en": "",
+            "cn_number": "10-1321/G2",
+            "language": "中文",
+            "sponsor": "人民邮电出版社有限公司",
+            "url": ""
+          },
+          {
+            "num": 6,
+            "tier": "T2",
+            "name_cn": "计算机教育",
+            "name_en": "",
+            "cn_number": "11-5006/TP",
+            "language": "中文",
+            "sponsor": "清华大学",
+            "url": ""
+          },
+          {
+            "num": 7,
+            "tier": "T2",
+            "name_cn": "计算机科学",
+            "name_en": "",
+            "cn_number": "50-1075/TP",
+            "language": "中文",
+            "sponsor": "重庆西南信息有限公司",
+            "url": ""
+          },
+          {
+            "num": 8,
+            "tier": "T2",
+            "name_cn": "计算机科学与探索",
+            "name_en": "",
+            "cn_number": "11-5602/TP",
+            "language": "中文",
+            "sponsor": "华北计算技术研究所",
+            "url": ""
+          },
+          {
+            "num": 9,
+            "tier": "T2",
+            "name_cn": "计算机工程",
+            "name_en": "",
+            "cn_number": "31-1289/TP",
+            "language": "中文",
+            "sponsor": "华东计算技术研究所、上海计算机学会",
+            "url": ""
+          },
+          {
+            "num": 10,
+            "tier": "T2",
+            "name_cn": "计算机工程与科学",
+            "name_en": "",
+            "cn_number": "43-1258/TP",
+            "language": "中文",
+            "sponsor": "国防科技大学计算机学院",
+            "url": ""
+          },
+          {
+            "num": 11,
+            "tier": "T2",
+            "name_cn": "计算机工程与应用",
+            "name_en": "",
+            "cn_number": "11-2127/TP",
+            "language": "中文",
+            "sponsor": "华北计算技术研究所",
+            "url": ""
+          },
+          {
+            "num": 12,
+            "tier": "T2",
+            "name_cn": "计算机系统应用",
+            "name_en": "",
+            "cn_number": "11-2854/TP",
+            "language": "中文",
+            "sponsor": "中国科学院软件研究所",
+            "url": ""
+          },
+          {
+            "num": 13,
+            "tier": "T2",
+            "name_cn": "计算机应用",
+            "name_en": "",
+            "cn_number": "51-1307/TP",
+            "language": "中文",
+            "sponsor": "四川省计算机学会、中国科学院成都分院",
+            "url": ""
+          },
+          {
+            "num": 14,
+            "tier": "T2",
+            "name_cn": "密码学报",
+            "name_en": "",
+            "cn_number": "10-1195/TN",
+            "language": "中文",
+            "sponsor": "中国密码学会、北京信息科学技术研究院、科学普及出版社",
+            "url": ""
+          },
+          {
+            "num": 15,
+            "tier": "T2",
+            "name_cn": "模式识别与人工智能",
+            "name_en": "",
+            "cn_number": "34-1089/TP",
+            "language": "中文",
+            "sponsor": "中国自动化学会、国家智能计算机研究开发中心、中国科学院合肥智能机械研究所",
+            "url": ""
+          },
+          {
+            "num": 16,
+            "tier": "T2",
+            "name_cn": "物联网学报",
+            "name_en": "",
+            "cn_number": "10-1491/TP",
+            "language": "中文",
+            "sponsor": "人民邮电出版社有限公司",
+            "url": ""
+          },
+          {
+            "num": 17,
+            "tier": "T2",
+            "name_cn": "网络与信息安全学报",
+            "name_en": "",
+            "cn_number": "10-1366/TP",
+            "language": "中文",
+            "sponsor": "人民邮电出版社有限公司",
+            "url": ""
+          },
+          {
+            "num": 18,
+            "tier": "T2",
+            "name_cn": "小型微型计算机系统",
+            "name_en": "",
+            "cn_number": "21-1106/TP",
+            "language": "中文",
+            "sponsor": "中国科学院沈阳计算技术研究所",
+            "url": ""
+          },
+          {
+            "num": 19,
+            "tier": "T2",
+            "name_cn": "系统仿真学报",
+            "name_en": "",
+            "cn_number": "11-3092/V",
+            "language": "中文",
+            "sponsor": "北京仿真中心、中国仿真学会",
+            "url": ""
+          },
+          {
+            "num": 20,
+            "tier": "T2",
+            "name_cn": "信息安全学报",
+            "name_en": "",
+            "cn_number": "10-1380/TN",
+            "language": "中文",
+            "sponsor": "中国科学院信息工程研究所、中国科技出版传媒股份有限公司",
+            "url": ""
+          },
+          {
+            "num": 21,
+            "tier": "T2",
+            "name_cn": "智能系统学报",
+            "name_en": "",
+            "cn_number": "23-1538/TP",
+            "language": "中文",
+            "sponsor": "哈尔滨工程大学、中国人工智能学会",
+            "url": ""
+          },
+          {
+            "num": 22,
+            "tier": "T2",
+            "name_cn": "中国图象图形学报",
+            "name_en": "",
+            "cn_number": "11-3758/TB",
+            "language": "中文",
+            "sponsor": "中国科学院空天信息创新研究院、中国图象图形学学会、北京应用物理与计算数学研究所",
+            "url": ""
+          },
+          {
+            "num": 1,
+            "tier": "T3",
+            "name_cn": "光电子快报（英文）",
+            "name_en": "Optoelectronics Letters",
+            "cn_number": "12-1370/TN",
+            "language": "英文",
+            "sponsor": "天津理工大学",
+            "url": ""
+          },
+          {
+            "num": 2,
+            "tier": "T3",
+            "name_cn": "定量生物学（英文）",
+            "name_en": "Quantitative Biology",
+            "cn_number": "10-1082/Q",
+            "language": "英文",
+            "sponsor": "高等教育出版社有限公司、清华大学",
+            "url": ""
+          },
+          {
+            "num": 3,
+            "tier": "T3",
+            "name_cn": "工医艺的可视计算（英文）",
+            "name_en": "Visual Computing for Industry, Biomedicine, and Art",
+            "cn_number": "10-1521/TP",
+            "language": "英文",
+            "sponsor": "中国图学学会",
+            "url": ""
+          },
+          {
+            "num": 4,
+            "tier": "T3",
+            "name_cn": "保密科学技术",
+            "name_en": "",
+            "cn_number": "11-5948/TP",
+            "language": "中文",
+            "sponsor": "国家保密科技测评中心",
+            "url": ""
+          },
+          {
+            "num": 5,
+            "tier": "T3",
+            "name_cn": "高性能计算机技术",
+            "name_en": "",
+            "cn_number": "32-1679/TP",
+            "language": "中文",
+            "sponsor": "总参第五十六研究所",
+            "url": ""
+          },
+          {
+            "num": 6,
+            "tier": "T3",
+            "name_cn": "航空计算技术",
+            "name_en": "",
+            "cn_number": "61-1276/TP",
+            "language": "中文",
+            "sponsor": "中国航空工业集团公司西安航空计算技术研究所",
+            "url": ""
+          },
+          {
+            "num": 7,
+            "tier": "T3",
+            "name_cn": "集成电路与嵌入式系统",
+            "name_en": "",
+            "cn_number": "10-1910/V",
+            "language": "中文",
+            "sponsor": "北京航空航天大学",
+            "url": ""
+          },
+          {
+            "num": 8,
+            "tier": "T3",
+            "name_cn": "计算机仿真",
+            "name_en": "",
+            "cn_number": "11-3724/TP",
+            "language": "中文",
+            "sponsor": "北京控制与电子技术研究所",
+            "url": ""
+          },
+          {
+            "num": 9,
+            "tier": "T3",
+            "name_cn": "计算机工程与设计",
+            "name_en": "",
+            "cn_number": "11-1775/TP",
+            "language": "中文",
+            "sponsor": "中国航天科工集团第二研究院七〇六所",
+            "url": ""
+          },
+          {
+            "num": 10,
+            "tier": "T3",
+            "name_cn": "计算机集成制造系统",
+            "name_en": "",
+            "cn_number": "11-5946/TP",
+            "language": "中文",
+            "sponsor": "中国兵器工业集团第二一〇研究所",
+            "url": ""
+          },
+          {
+            "num": 11,
+            "tier": "T3",
+            "name_cn": "计算机技术与发展",
+            "name_en": "",
+            "cn_number": "61-1450/TP",
+            "language": "中文",
+            "sponsor": "陕西省计算机学会",
+            "url": ""
+          },
+          {
+            "num": 12,
+            "tier": "T3",
+            "name_cn": "机器人",
+            "name_en": "",
+            "cn_number": "21-1137/TP",
+            "language": "中文",
+            "sponsor": "中国科学院沈阳自动化研究所、中国自动化学会",
+            "url": ""
+          },
+          {
+            "num": 13,
+            "tier": "T3",
+            "name_cn": "计算机应用研究",
+            "name_en": "",
+            "cn_number": "51-1196/TP",
+            "language": "中文",
+            "sponsor": "四川省计算机研究院",
+            "url": ""
+          },
+          {
+            "num": 14,
+            "tier": "T3",
+            "name_cn": "密码与信息安全学报",
+            "name_en": "",
+            "cn_number": "41-1415/TP",
+            "language": "中文",
+            "sponsor": "信息工程大学科研部",
+            "url": ""
+          },
+          {
+            "num": 15,
+            "tier": "T3",
+            "name_cn": "软件导刊",
+            "name_en": "",
+            "cn_number": "42-1671/TP",
+            "language": "中文",
+            "sponsor": "湖北省科技信息研究院",
+            "url": ""
+          },
+          {
+            "num": 16,
+            "tier": "T3",
+            "name_cn": "软件和集成电路",
+            "name_en": "",
+            "cn_number": "10-1339/TN",
+            "language": "中文",
+            "sponsor": "中国电子信息产业发展研究院、赛迪工业和信息化研究院（集团）有限公司",
+            "url": ""
+          },
+          {
+            "num": 17,
+            "tier": "T3",
+            "name_cn": "数据与计算发展前沿",
+            "name_en": "",
+            "cn_number": "10-1649/TP",
+            "language": "中文",
+            "sponsor": "中国科学院计算机网络信息中心、中国科技出版传媒股份有限公司",
+            "url": ""
+          },
+          {
+            "num": 18,
+            "tier": "T3",
+            "name_cn": "生物信息学",
+            "name_en": "",
+            "cn_number": "23-1513/Q",
+            "language": "中文",
+            "sponsor": "哈尔滨工业大学",
+            "url": ""
+          },
+          {
+            "num": 19,
+            "tier": "T3",
+            "name_cn": "数值计算与计算机应用",
+            "name_en": "",
+            "cn_number": "11-2124/TP",
+            "language": "中文",
+            "sponsor": "中科院数学与系统科学研究院",
+            "url": ""
+          },
+          {
+            "num": 20,
+            "tier": "T3",
+            "name_cn": "图学学报",
+            "name_en": "",
+            "cn_number": "10-1034/T",
+            "language": "中文",
+            "sponsor": "中国图学学会",
+            "url": ""
+          },
+          {
+            "num": 21,
+            "tier": "T3",
+            "name_cn": "微电子学与计算机",
+            "name_en": "",
+            "cn_number": "61-1123/TN",
+            "language": "中文",
+            "sponsor": "西安微电子技术研究所",
+            "url": ""
+          },
+          {
+            "num": 22,
+            "tier": "T3",
+            "name_cn": "网络空间安全",
+            "name_en": "",
+            "cn_number": "10-1421/TP",
+            "language": "中文",
+            "sponsor": "中国电子信息产业发展研究院、赛迪工业和信息化研究院（集团）有限公司",
+            "url": ""
+          },
+          {
+            "num": 23,
+            "tier": "T3",
+            "name_cn": "信号处理",
+            "name_en": "",
+            "cn_number": "11-2406/TN",
+            "language": "中文",
+            "sponsor": "中国电子学会、中电新一代（北京）信息技术研究院",
+            "url": ""
+          },
+          {
+            "num": 24,
+            "tier": "T3",
+            "name_cn": "信息安全研究",
+            "name_en": "",
+            "cn_number": "10-1345/TP",
+            "language": "中文",
+            "sponsor": "国家信息中心",
+            "url": ""
+          },
+          {
+            "num": 25,
+            "tier": "T3",
+            "name_cn": "信息网络安全",
+            "name_en": "",
+            "cn_number": "31-1859/TN",
+            "language": "中文",
+            "sponsor": "公安部第三研究所、中国计算机学会",
+            "url": ""
+          },
+          {
+            "num": 26,
+            "tier": "T3",
+            "name_cn": "应用科学学报",
+            "name_en": "",
+            "cn_number": "31-1404/N",
+            "language": "中文",
+            "sponsor": "上海大学、中国科学院上海技术物理研究所",
+            "url": ""
+          },
+          {
+            "num": 27,
+            "tier": "T3",
+            "name_cn": "中兴通讯技术",
+            "name_en": "",
+            "cn_number": "34-1228/TN",
+            "language": "中文",
+            "sponsor": "时代出版传媒股份有限公司、深圳航天广宇工业有限公司",
+            "url": ""
+          }
+        ]
       }
     ]
   }

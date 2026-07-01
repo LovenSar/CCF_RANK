@@ -1,17 +1,20 @@
 # CCF Rank 2026 数据集
 
-本仓库提供中国计算机学会（CCF）两份关键名录的结构化 JSON 数据，便于检索、统计与二次开发：
+本仓库提供中国计算机学会（CCF）国际目录与中文期刊目录的结构化 JSON 数据，便于检索、统计与二次开发：
 
 1. **《CCF 推荐国际学术会议和期刊目录（第七版，2026 年 3 月正式版）》**：A/B/C 三级国际目录（681 条）
-2. **《CCF 计算领域高质量科技期刊分级目录（2025）》**：T1/T2/T3 三级中文期刊目录（68 条）
+2. **《中国计算机学会推荐中文科技期刊目录（2019）》**：A/B/C 三级中文期刊目录（37 条）
+3. **《CCF 计算领域高质量科技期刊分级目录（2025）》**：T1/T2/T3 三级中文期刊目录（68 条）
 
-## 数据来源与三重校对方式
+## 数据来源与校对方式
 
-数据通过三次独立来源比对完成：
+数据通过多源比对完成：
 
 1. **官方 PDF 主源**：`第七版中国计算机学会推荐国际学术会议和期刊目录（正式版）.pdf`
 2. **CCF 中文官网分类页**：<https://www.ccf.org.cn/Academic_Evaluation/By_category/>（含 10 个学科方向子页 `ARCH_DCP_SS / CN / NIS / TCSE_SS_PDL / DM_CS / TCS / CGAndMT / AI / HCIAndPC / Cross_Compre_Emerging`）
-3. **CCF 计算领域高质量科技期刊分级目录页**：<https://www.ccf.org.cn/ccftjgjxskwml/>（2025 年发布的中文 T1/T2/T3 目录，已并入 `chinese_journal_catalog` 字段）
+3. **2019 中文期刊 PDF**：`中国计算机学会推荐中文科技期刊目录-2019-CCF中文ABC.pdf`
+4. **2019 中文期刊发布页**：<https://www.ccf.org.cn/c/2019-07-31/667609.shtml>
+5. **CCF 计算领域高质量科技期刊分级目录页**：<https://www.ccf.org.cn/ccftjgjxskwml/>（2025 年发布的中文 T1/T2/T3 目录，已并入 `chinese_journal_catalog` 字段）
 
 > 第七版 PDF 为最新权威版本，部分新增条目（如 JCC、ICXR、ACMDLT、APNet、HotStorage、ACMSIGOPSATC 等）尚未同步至官网静态页面。当 PDF 与官网出现差异时以 PDF 为准；官网用于交叉核验条目缩写、英文全称、出版社字段。
 
@@ -19,6 +22,7 @@
 
 - `ccf_rank_2026.json`：主数据文件（JSON，UTF-8）
 - `第七版中国计算机学会推荐国际学术会议和期刊目录（正式版）.pdf`：原始 PDF 参考
+- `中国计算机学会推荐中文科技期刊目录-2019-CCF中文ABC.pdf`：2019 中文期刊目录 PDF
 - `README.md`：本说明文件
 
 ## 数据概览
@@ -37,14 +41,16 @@
 
 ### 中文期刊目录（chinese_journal_catalog）
 
-| 指标 | 数量 |
+| 指标 | 数量 / 说明 |
 |---|---|
-| 发布年份 | 2025 |
-| 发布日期 | 2025-04-16 |
-| **T1（最顶级期刊）** | **19** |
-| **T2（非常优秀期刊）** | **22** |
-| **T3（优秀期刊）** | **27** |
-| **小计** | **68** |
+| 当前版本 ID | `ccf_cn_2025_t123` |
+| 版本数量 | 2 |
+| 2019 版发布时间 | 2019-07-31 |
+| 2019 版等级与数量 | A: 7 / B: 11 / C: 19（共 37） |
+| 2019 版适用区间 | 2019-07-31 至 2025-04-15 |
+| 2025 版发布时间 | 2025-04-16 |
+| 2025 版等级与数量 | T1: 19 / T2: 22 / T3: 27（共 68） |
+| 2025 版适用区间 | 2025-04-16 至今 |
 
 ### 按方向 / 类型 / 分级分布
 
@@ -81,29 +87,77 @@
   "category": [ /* 10 学科方向 */ ],
   "list":     [ /* 681 条国际期刊/会议条目 */ ],
   "chinese_journal_catalog": {
-    "title": "计算领域高质量科技期刊分级目录（2025）",
-    "release_date": "2025-04-16",
-    "tiers": {
-      "T1": {"description": "最顶级期刊", "count": 19},
-      "T2": {"description": "非常优秀期刊", "count": 22},
-      "T3": {"description": "优秀期刊", "count": 27}
-    },
-    "list": [ /* 68 条中文期刊条目 */ ]
+    "current_edition_id": "ccf_cn_2025_t123",
+    "editions": [
+      {
+        "id": "ccf_cn_2019_abc",
+        "year": 2019,
+        "tier_system": "ABC",
+        "release_date": "2019-07-31",
+        "effective_from": "2019-07-31",
+        "effective_to": "2025-04-15",
+        "tiers": {
+          "A": {"description": "最顶级期刊", "count": 7},
+          "B": {"description": "非常优秀期刊", "count": 11},
+          "C": {"description": "优秀期刊", "count": 19}
+        },
+        "list": [ /* 37 条中文期刊条目 */ ]
+      },
+      {
+        "id": "ccf_cn_2025_t123",
+        "year": 2025,
+        "tier_system": "T123",
+        "release_date": "2025-04-16",
+        "effective_from": "2025-04-16",
+        "effective_to": null,
+        "tiers": {
+          "T1": {"description": "最顶级期刊", "count": 19},
+          "T2": {"description": "非常优秀期刊", "count": 22},
+          "T3": {"description": "优秀期刊", "count": 27}
+        },
+        "list": [ /* 68 条中文期刊条目 */ ]
+      }
+    ]
   }
 }
 ```
 
-### `chinese_journal_catalog.list[]` 字段
+### `chinese_journal_catalog` 字段
+
+| 字段 | 类型 | 说明 |
+|---|---|---|
+| `current_edition_id` | str | 当前生效的中文目录版本 ID |
+| `editions` | list | 中文目录版本列表，按时间顺序存放 |
+
+### `chinese_journal_catalog.editions[]` 字段
+
+| 字段 | 类型 | 说明 |
+|---|---|---|
+| `id` | str | 版本唯一标识 |
+| `year` | int | 版本年份 |
+| `title` | str | 版本中文标题 |
+| `title_en` | str | 版本英文标题 |
+| `catalog_type` | str | 目录类型名称 |
+| `tier_system` | str | 等级体系，如 `ABC` / `T123` |
+| `release_date` | str | 发布时间，格式 `YYYY-MM-DD` |
+| `effective_from` | str | 生效起始日期 |
+| `effective_to` | str/null | 生效结束日期；当前版本为 `null` |
+| `effective_to_note` | str | 对结束日期的补充说明，仅部分版本存在 |
+| `tiers` | object | 各等级描述与数量 |
+| `list` | list | 当前版本的期刊条目列表 |
+
+### `chinese_journal_catalog.editions[].list[]` 字段
 
 | 字段 | 类型 | 说明 |
 |---|---|---|
 | `num` | int | 当前 tier 内的顺号 |
-| `tier` | str | `T1` / `T2` / `T3` |
+| `tier` | str | 对应版本内的等级，如 `A` / `B` / `C` 或 `T1` / `T2` / `T3` |
 | `name_cn` | str | 中文刊名（英文期刊则为中文官方译名，带「（英文）」后缀） |
 | `name_en` | str | 英文刊名（仅英文期刊为非空，中文期刊为空字符串） |
 | `cn_number` | str | 国内统一刊号 CN 号 |
 | `language` | str | `中文` / `英文` |
 | `sponsor` | str | 主办单位（多家时以、或；分隔） |
+| `url` | str | 期刊官网或目录参考链接 |
 
 ## 字段定义
 
@@ -190,20 +244,21 @@ print(len(ai_items), "条人工智能方向条目")
 ### 中文期刊目录查询
 
 ```python
-# 列出 T1 中文期刊
-t1_cn = [
-    j for j in data["chinese_journal_catalog"]["list"]
-    if j["tier"] == "T1" and j["language"] == "中文"
-]
+# 当前生效版本（2025）的 T1 中文期刊
+catalog = data["chinese_journal_catalog"]
+current = next(
+    x for x in catalog["editions"]
+    if x["id"] == catalog["current_edition_id"]
+)
+
+t1_cn = [j for j in current["list"] if j["tier"] == "T1" and j["language"] == "中文"]
 for j in t1_cn:
     print(j["num"], j["name_cn"], j["cn_number"])
 
-# 列出所有英文期刊（T1+T2+T3）
-en_journals = [
-    j for j in data["chinese_journal_catalog"]["list"]
-    if j["language"] == "英文"
-]
-print(f"中文目录中的英文期刊共 {len(en_journals)} 本")
+# 列出 2019 版 C 类期刊
+edition_2019 = next(x for x in catalog["editions"] if x["id"] == "ccf_cn_2019_abc")
+c_2019 = [j for j in edition_2019["list"] if j["tier"] == "C"]
+print(f"2019 版 C 类期刊共 {len(c_2019)} 本")
 ```
 
 ## 数据清洗与使用建议
@@ -211,6 +266,8 @@ print(f"中文目录中的英文期刊共 {len(en_journals)} 本")
 - 条目英文全称统一沿用 CCF 公布的官方写法（包括 `Computer-Aided`、`Multi-agent`、`Pacific-Asia` 等大小写与连字符）。
 - `abbr` 为空时通常因 PDF 原表也未给出（如 `Parallel Computing`、`Ad Hoc Networks` 等普通英文刊名作简称使用）。
 - `name_cn` 仅在 CCF 文件、官网或主办单位提供中文名称时填写。绝大多数国际会议 / 期刊在中英文目录中均使用英文官方名称，因此 `name_cn` 为空属正常情况，并非缺漏。
+- 中文期刊目录已从单版本对象升级为多版本集合；读取时请先通过 `current_edition_id` 选择当前版本，或按 `editions[].year` / `tier_system` 显式选择历史版本。
+- `ccf_cn_2019_abc.effective_to` 取值 `2025-04-15`，是依据下一版目录 `2025-04-16` 发布时间推定的区间上界，便于程序按日期筛选。
 - 部分 `category_id == 2`（网络与信息安全）下出现了 `TCC`（Theory of Cryptography Conference）与 `category_id == 0` 下的 `TCC`（IEEE Transactions on Cloud Computing），这是 PDF 原文的重名缩写，使用时需按 `category_id` + `type` 区分。
 - 部分 URL 为 DBLP 旧路径或会议历史路径，批量访问前建议先做存活性检查。
 
